@@ -8,13 +8,18 @@
     "start": "next start"
   },
   "dependencies": {
+    "autoprefixer": "9",
     "next": "10.0.5",
     "react": "17.0.1",
     "react-dom": "17.0.1"
   },
   "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.0.2",
     "@types/node": "^14.14.22",
     "@types/react": "^17.0.0",
+    "postcss": "7",
+    "postcss-import": "^14.0.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "typescript": "^4.1.3"
   }
 }
