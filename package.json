@@ -19,6 +19,7 @@
     "@types/react": "^17.0.0",
     "postcss": "7",
     "postcss-import": "^14.0.0",
+    "postcss-preset-env": "^6.7.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "typescript": "^4.1.3"
   }
