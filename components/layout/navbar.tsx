@@ -1,40 +1,68 @@
 import React from "react";
+import Link from "next/link";
+import { useRouter } from "next/router";
 
-interface navbarProps {}
-
-const navbar: React.FC<navbarProps> = ({}) => {
+const navbar: React.FC<{ color: string }> = ({ color }) => {
+  const router = useRouter();
+  const currentPath = router.pathname;
   return (
-    <header className="border-t-8 border-blue-800 text-white text-lg">
-      <nav className="container mx-auto flex items-center justify-between px-4 py-6 bg-blue-600">
+    <header className={`border-t-8 border-${color}-800 text-white text-lg`}>
+      <nav
+        className={`container mx-auto flex items-center justify-between px-4 py-6 bg-${color}-600`}
+      >
         <div className="flex items-center">
-          <a href="" className="hover:text-green-200">
-            HOME
-          </a>
+          {currentPath === "/" ? (
+            "HOME"
+          ) : (
+            <Link href="/">
+              <a className="hover:text-green-200">HOME</a>
+            </Link>
+          )}
           <ul className="flex ml-16 space-x-8">
             <li>
-              <a href="" className="hover:text-blue-200">
-                Tim
-              </a>
+              {currentPath === "/tim" ? (
+                <div className="text-blue-200">Tim</div>
+              ) : (
+                <Link href="/tim">
+                  <a className="hover:text-blue-200">Tim</a>
+                </Link>
+              )}
             </li>
             <li>
-              <a href="" className="hover:text-red-400">
-                Jess
-              </a>
+              {currentPath === "/jess" ? (
+                <div className="text-red-400">Jess</div>
+              ) : (
+                <Link href="/jess">
+                  <a className="hover:text-red-400">Jess</a>
+                </Link>
+              )}
             </li>
             <li>
-              <a href="" className="hover:text-pink-400">
-                Amy
-              </a>
+              {currentPath === "/amy" ? (
+                <div className="text-pink-400">Amy</div>
+              ) : (
+                <Link href="/amy">
+                  <a className="hover:text-pink-400">Amy</a>
+                </Link>
+              )}
             </li>
             <li>
-              <a href="" className="hover:text-pink-400">
-                Sophie
-              </a>
+              {currentPath === "/sophie" ? (
+                <div className="text-pink-400">Sophie</div>
+              ) : (
+                <Link href="/sophie">
+                  <a className="hover:text-pink-400">Sophie</a>
+                </Link>
+              )}
             </li>
             <li>
-              <a href="" className="hover:text-pink-400">
-                Melanie
-              </a>
+              {currentPath === "/melanie" ? (
+                <div className="text-pink-400">Melanie</div>
+              ) : (
+                <Link href="/melanie">
+                  <a className="hover:text-pink-400">Melanie</a>
+                </Link>
+              )}
             </li>
           </ul>
         </div>

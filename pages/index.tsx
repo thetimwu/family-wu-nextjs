@@ -50,10 +50,8 @@ export default function Home() {
   };
 
   return (
-    <Layout color="white">
+    <Layout color="blue">
       <div className="min-h-screen flex items-center justify-center bg-blue-100 py-12 px-4 sm:px-6 lg:px-8">
-        {message}
-        secret:{secret}
         <img
           style={{
             border: 20,
