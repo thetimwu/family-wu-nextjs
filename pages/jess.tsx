@@ -3,8 +3,8 @@ import Layout from "../components/layout/Layout";
 
 const jess: React.FC = () => {
   return (
-    <Layout color="pink">
-      <div className="min-h-screen bg-gradient-to-b from-pink-100 to-pink-400 flex items-center">
+    <Layout color="red">
+      <div className="min-h-screen bg-gradient-to-b from-red-100 to-red-400 flex items-center">
         <div className="min-h-screen flex flex-row bg-gray-100">
           <div className="flex flex-col w-56 bg-white overflow-hidden">
             <div className="flex items-center justify-center h-20 shadow-md">
