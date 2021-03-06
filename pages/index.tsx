@@ -51,7 +51,7 @@ export default function Home() {
 
   return (
     <Layout color="blue">
-      <div className="h-screen flex items-center justify-center bg-blue-100 px-4 sm:px-3 lg:px-8">
+      <div className="h-screen lg:flex items-center justify-center bg-blue-100 px-4 sm:px-3 lg:px-8">
         {/* <img
           style={{
             border: 20,
@@ -68,7 +68,7 @@ export default function Home() {
           <div>
             <svg
               id="Capa_1"
-              enable-background="new 0 0 500 500"
+              enableBackground="new 0 0 500 500"
               height="400"
               viewBox="0 0 500 500"
               width="400"
@@ -84,10 +84,10 @@ export default function Home() {
                 y1="110.639"
                 y2="436.007"
               >
-                <stop offset="0" stop-color="#ffa936" />
-                <stop offset=".4112" stop-color="#ff8548" />
-                <stop offset=".7781" stop-color="#ff6c54" />
-                <stop offset="1" stop-color="#ff6359" />
+                <stop offset="0" stopColor="#ffa936" />
+                <stop offset=".4112" stopColor="#ff8548" />
+                <stop offset=".7781" stopColor="#ff6c54" />
+                <stop offset="1" stopColor="#ff6359" />
               </linearGradient>
               <linearGradient
                 id="SVGID_2_"
@@ -97,15 +97,15 @@ export default function Home() {
                 y1="159.015"
                 y2="164.322"
               >
-                <stop offset="0" stop-color="#f82814" stop-opacity="0" />
-                <stop offset="1" stop-color="#c0272d" />
+                <stop offset="0" stopColor="#f82814" stopOpacity="0" />
+                <stop offset="1" stopColor="#c0272d" />
               </linearGradient>
               <linearGradient id="lg1">
-                <stop offset="0" stop-color="#cdec7a" />
-                <stop offset=".2157" stop-color="#b0e995" />
-                <stop offset=".5613" stop-color="#87e4bb" />
-                <stop offset=".8347" stop-color="#6ee1d2" />
-                <stop offset="1" stop-color="#65e0db" />
+                <stop offset="0" stopColor="#cdec7a" />
+                <stop offset=".2157" stopColor="#b0e995" />
+                <stop offset=".5613" stopColor="#87e4bb" />
+                <stop offset=".8347" stopColor="#6ee1d2" />
+                <stop offset="1" stopColor="#65e0db" />
               </linearGradient>
               <linearGradient
                 id="SVGID_3_"
@@ -118,11 +118,11 @@ export default function Home() {
                 y2="430.073"
               />
               <linearGradient id="lg2">
-                <stop offset="0" stop-color="#cdec7a" stop-opacity="0" />
-                <stop offset=".2354" stop-color="#9ad57d" stop-opacity=".235" />
-                <stop offset=".6035" stop-color="#51b482" stop-opacity=".604" />
-                <stop offset=".8679" stop-color="#239f85" stop-opacity=".868" />
-                <stop offset="1" stop-color="#119786" />
+                <stop offset="0" stopColor="#cdec7a" stopOpacity="0" />
+                <stop offset=".2354" stopColor="#9ad57d" stopOpacity=".235" />
+                <stop offset=".6035" stopColor="#51b482" stopOpacity=".604" />
+                <stop offset=".8679" stopColor="#239f85" stopOpacity=".868" />
+                <stop offset="1" stopColor="#119786" />
               </linearGradient>
               <linearGradient
                 id="SVGID_4_"
@@ -150,8 +150,8 @@ export default function Home() {
                 y1="111.753"
                 y2="437.121"
               >
-                <stop offset="0" stop-color="#f8f6fb" />
-                <stop offset="1" stop-color="#efdcfb" />
+                <stop offset="0" stopColor="#f8f6fb" />
+                <stop offset="1" stopColor="#efdcfb" />
               </linearGradient>
               <linearGradient
                 id="SVGID_7_"
@@ -161,10 +161,10 @@ export default function Home() {
                 y1="101.155"
                 y2="514.021"
               >
-                <stop offset="0" stop-color="#18cefb" />
-                <stop offset=".2969" stop-color="#2bb9f9" />
-                <stop offset=".7345" stop-color="#42a0f7" />
-                <stop offset="1" stop-color="#4a97f6" />
+                <stop offset="0" stopColor="#18cefb" />
+                <stop offset=".2969" stopColor="#2bb9f9" />
+                <stop offset=".7345" stopColor="#42a0f7" />
+                <stop offset="1" stopColor="#4a97f6" />
               </linearGradient>
               <linearGradient
                 id="SVGID_8_"
@@ -174,11 +174,11 @@ export default function Home() {
                 y1="316.53"
                 y2="497.406"
               >
-                <stop offset="0" stop-color="#cdec7a" />
-                <stop offset=".2154" stop-color="#b0e995" stop-opacity=".784" />
-                <stop offset=".5604" stop-color="#87e4bb" stop-opacity=".439" />
-                <stop offset=".8334" stop-color="#6ee1d2" stop-opacity=".165" />
-                <stop offset=".9985" stop-color="#65e0db" stop-opacity="0" />
+                <stop offset="0" stopColor="#cdec7a" />
+                <stop offset=".2154" stopColor="#b0e995" stopOpacity=".784" />
+                <stop offset=".5604" stopColor="#87e4bb" stopOpacity=".439" />
+                <stop offset=".8334" stopColor="#6ee1d2" stopOpacity=".165" />
+                <stop offset=".9985" stopColor="#65e0db" stopOpacity="0" />
               </linearGradient>
               <linearGradient
                 id="SVGID_9_"
@@ -197,10 +197,10 @@ export default function Home() {
                 y1="131.922"
                 y2="202.666"
               >
-                <stop offset="0" stop-color="#ffd945" />
-                <stop offset=".3043" stop-color="#ffcd3e" />
-                <stop offset=".8558" stop-color="#ffad2b" />
-                <stop offset="1" stop-color="#ffa325" />
+                <stop offset="0" stopColor="#ffd945" />
+                <stop offset=".3043" stopColor="#ffcd3e" />
+                <stop offset=".8558" stopColor="#ffad2b" />
+                <stop offset="1" stopColor="#ffa325" />
               </linearGradient>
               <g>
                 <path

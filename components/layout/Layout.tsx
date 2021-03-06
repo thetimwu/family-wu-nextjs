@@ -8,11 +8,11 @@ interface LayoutProps {
 
 const Layout: React.FC<LayoutProps> = ({ color, children }) => {
   return (
-    <div className={`container bg-${color} mx-auto`}>
+    <div className={`container bg-${color} mx-auto font-body`}>
       <Navbar color={color} />
-      <div className="py-8">{children}</div>
+      <div className="py-0">{children}</div>
       <footer
-        className={`flex flex-col justify-center items-center bg-${color}-600 text-white border-t border-${color}-800`}
+        className={`flex flex-col justify-center items-center bg-${color}-600 text-white border-t`}
       >
         <div className="m-auto text-center py-6">
           <div>Designed By Tim Wu</div>
