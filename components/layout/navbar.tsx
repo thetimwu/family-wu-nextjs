@@ -77,24 +77,89 @@ const navbar: React.FC<{ color: string }> = ({ color }) => {
               <div className="hidden sm:block sm:ml-6">
                 <div className="flex space-x-4">
                   {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
-                  <a
-                    href="#"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Team
-                  </a>
-                  <a
-                    href="#"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Projects
-                  </a>
-                  <a
-                    href="#"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Calendar
-                  </a>
+                  {/* className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" */}
+                  {currentPath === "/" ? (
+                    <span className="font-bold uppercase px-2 py-1">home</span>
+                  ) : (
+                    <Link href="/">
+                      <a
+                        href="#"
+                        className={`text-white-300 hover:bg-${color}-200 hover:text-${color}-800 block px-3 py-2 rounded-md text-base font-medium uppercase`}
+                      >
+                        home
+                      </a>
+                    </Link>
+                  )}
+
+                  {currentPath === "/tim" ? (
+                    <div className="text-blue-200 font-semibold px-3 py-2">
+                      Tim
+                    </div>
+                  ) : (
+                    <Link href="/tim">
+                      <a
+                        className={`text-white-300 hover:bg-${color}-200 hover:text-${color}-800 block px-3 py-2 rounded-md text-base font-medium`}
+                      >
+                        Tim
+                      </a>
+                    </Link>
+                  )}
+
+                  {currentPath === "/jess" ? (
+                    <div className="text-red-400 font-semibold px-3 py-2">
+                      Jess
+                    </div>
+                  ) : (
+                    <Link href="/jess">
+                      <a
+                        className={`text-white-300 hover:bg-${color}-200 hover:text-red-600 block px-3 py-2 rounded-md text-base font-medium`}
+                      >
+                        Jess
+                      </a>
+                    </Link>
+                  )}
+
+                  {currentPath === "/amy" ? (
+                    <div className="text-pink-400 font-semibold px-3 py-2">
+                      Amy
+                    </div>
+                  ) : (
+                    <Link href="/amy">
+                      <a
+                        className={`text-white-300 hover:bg-${color}-200 hover:text-pink-500 block px-3 py-2 rounded-md text-base font-medium`}
+                      >
+                        Amy
+                      </a>
+                    </Link>
+                  )}
+
+                  {currentPath === "/sophie" ? (
+                    <div className="text-pink-400 font-semibold px-3 py-2">
+                      Sophie
+                    </div>
+                  ) : (
+                    <Link href="/sophie">
+                      <a
+                        className={`text-white-300 hover:bg-${color}-200 hover:text-pink-500 block px-3 py-2 rounded-md text-base font-medium`}
+                      >
+                        Sophie
+                      </a>
+                    </Link>
+                  )}
+
+                  {currentPath === "/melanie" ? (
+                    <div className="text-pink-400 font-semibold px-3 py-2">
+                      Melanie
+                    </div>
+                  ) : (
+                    <Link href="/melanie">
+                      <a
+                        className={`text-white-300 hover:bg-${color}-200 hover:text-pink-500 block px-3 py-2 rounded-md text-base font-medium`}
+                      >
+                        Melanie
+                      </a>
+                    </Link>
+                  )}
                 </div>
               </div>
             </div>
