@@ -6,7 +6,7 @@
 .input:focus + .label,
 .input:active + .label,
 .input.filled + .label {
-  font-size: 0.75rem;
+  font-size: 0.55rem;
   transition: all 0.2s ease-out;
   top: -0.1rem;
   color: #667eea;
@@ -16,4 +16,5 @@
   transition: all 0.2s ease-out;
   top: 0.4rem;
   left: 0;
+  width: 20rem;
 }
