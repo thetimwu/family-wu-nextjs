@@ -4,7 +4,7 @@ import Layout from "../components/layout/Layout";
 const melanie: React.FC = () => {
   return (
     <Layout color="yellow">
-      <main className="bg-yellow-200 grid place-items-center h-screen">
+      <main className="bg-yellow-200 grid place-items-center h-full">
         <div className="relative">
           <div className="h-40 w-40 bg-pink-400 rounded-t-full relative overflow-hidden">
             <div className="h-40 w-40 bg-gradient-to-l from-pink-100 to-pink-400 rounded-t-full absolute left-12"></div>

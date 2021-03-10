@@ -5,7 +5,7 @@ interface timProps {}
 const tim: React.FC<timProps> = ({}) => {
   return (
     <Layout color="gray">
-      <div className="flex flex-wrap bg-gray-100 w-full h-auto">
+      <div className="flex h-full flex-wrap bg-gray-100 w-full h-auto">
         <div className="w-4/12 sm:w-2/12 bg-white p-3 shadow-lg">
           <div className="flex items-center space-x-4 p-2 mb-5"></div>
           <ul className="space-y-2 text-sm">

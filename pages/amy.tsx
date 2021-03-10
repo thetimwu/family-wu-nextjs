@@ -103,7 +103,7 @@ const amy: React.FC = () => {
 
   return (
     <Layout color="pink">
-      <main className="bg-pink-100  h-auto p-2">
+      <main className="bg-pink-100  h-full p-2">
         <div
           className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative"
           role="alert"

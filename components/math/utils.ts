@@ -2,7 +2,8 @@ export function getRandomInt(max: number) {
   return Math.floor(Math.random() * Math.floor(max));
 }
 
-const operations = ["+", "-", "*", "/"];
+export const operations = ["+", "-", "*", "/"];
+
 export function getRandomOperation(num: 2 | 4) {
   return operations[getRandomInt(num)];
 }
