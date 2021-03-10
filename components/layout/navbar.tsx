@@ -82,26 +82,25 @@ const navbar: React.FC<{ color: string }> = ({ color }) => {
                     <span className="font-bold uppercase px-2 py-1">home</span>
                   ) : (
                     <Link href="/">
-                      <a
-                        href="#"
-                        className={`text-white-300 hover:bg-${color}-200 hover:text-${color}-800 block px-3 py-2 rounded-md text-base font-medium uppercase`}
+                      <div
+                        className={`text-white-300 hover:bg-${color}-200 hover:text-${color}-800 transition ease-out duration-500 block px-3 py-2 rounded-md text-base font-medium uppercase`}
                       >
                         home
-                      </a>
+                      </div>
                     </Link>
                   )}
 
-                  {currentPath === "/tim" ? (
+                  {currentPath.includes("/tim") ? (
                     <div className="text-blue-200 font-semibold px-3 py-2">
                       Tim
                     </div>
                   ) : (
                     <Link href="/tim">
-                      <a
-                        className={`text-white-300 hover:bg-${color}-200 hover:text-${color}-800 block px-3 py-2 rounded-md text-base font-medium`}
+                      <div
+                        className={`text-white-300 hover:bg-${color}-200 hover:text-${color}-800 transition ease-out duration-500 block px-3 py-2 rounded-md text-base font-medium`}
                       >
                         Tim
-                      </a>
+                      </div>
                     </Link>
                   )}
 
@@ -111,11 +110,11 @@ const navbar: React.FC<{ color: string }> = ({ color }) => {
                     </div>
                   ) : (
                     <Link href="/jess">
-                      <a
-                        className={`text-white-300 hover:bg-${color}-200 hover:text-red-600 block px-3 py-2 rounded-md text-base font-medium`}
+                      <div
+                        className={`text-white-300 hover:bg-${color}-200 hover:text-red-600 transition ease-out duration-500 block px-3 py-2 rounded-md text-base font-medium`}
                       >
                         Jess
-                      </a>
+                      </div>
                     </Link>
                   )}
 
@@ -125,11 +124,11 @@ const navbar: React.FC<{ color: string }> = ({ color }) => {
                     </div>
                   ) : (
                     <Link href="/amy">
-                      <a
-                        className={`text-white-300 hover:bg-${color}-200 hover:text-pink-500 block px-3 py-2 rounded-md text-base font-medium`}
+                      <div
+                        className={`text-white-300 hover:bg-${color}-200 hover:text-pink-500 transition ease-out duration-500 block px-3 py-2 rounded-md text-base font-medium`}
                       >
                         Amy
-                      </a>
+                      </div>
                     </Link>
                   )}
 
@@ -139,11 +138,11 @@ const navbar: React.FC<{ color: string }> = ({ color }) => {
                     </div>
                   ) : (
                     <Link href="/sophie">
-                      <a
-                        className={`text-white-300 hover:bg-${color}-200 hover:text-pink-500 block px-3 py-2 rounded-md text-base font-medium`}
+                      <div
+                        className={`text-white-300 hover:bg-${color}-200 hover:text-pink-500 transition ease-out duration-500 block px-3 py-2 rounded-md text-base font-medium`}
                       >
                         Sophie
-                      </a>
+                      </div>
                     </Link>
                   )}
 
@@ -153,11 +152,11 @@ const navbar: React.FC<{ color: string }> = ({ color }) => {
                     </div>
                   ) : (
                     <Link href="/melanie">
-                      <a
-                        className={`text-white-300 hover:bg-${color}-200 hover:text-pink-500 block px-3 py-2 rounded-md text-base font-medium`}
+                      <div
+                        className={`text-white-300 hover:bg-${color}-200 hover:text-pink-500 transition ease-out duration-500 block px-3 py-2 rounded-md text-base font-medium`}
                       >
                         Melanie
-                      </a>
+                      </div>
                     </Link>
                   )}
                 </div>

@@ -60,12 +60,9 @@ const jess: React.FC = () => {
             </div>
             <ul className="flex flex-col py-4">
               <li>
-                <div className="cursor-pointer flex flex-row items-center h-12 transform hover:translate-x-3 transition-transform ease-in duration-200 text-red-400 hover:text-red-400">
-                  <span className="inline-flex items-center justify-center h-12 w-4 sm:w-6 md:w-12 text-lg text-red-400">
-                    <i className="bx bx-home"></i>
-                  </span>
+                <div className="cursor-pointer flex flex-row items-center h-12 hover:bg-red-500 hover:text-white transition ease-in duration-300 text-red-400">
                   <span
-                    className="w-20 sm:w-28 text-sm font-medium"
+                    className="w-20 sm:w-28 ml-2 sm:ml-10 lg:ml-12 text-sm font-medium"
                     onClick={() => contentClickHandler("shoppingList")}
                   >
                     Shopping List
@@ -73,68 +70,44 @@ const jess: React.FC = () => {
                 </div>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="flex flex-row items-center h-12 transform hover:translate-x-3 transition-transform ease-in duration-200 text-red-400 hover:text-red-400"
-                >
-                  <span className="inline-flex items-center justify-center h-12 w-4 sm:w-6 md:w-12 text-lg text-red-400">
-                    <i className="bx bx-music"></i>
-                  </span>
+                <div className="cursor-pointer flex flex-row items-center h-12 hover:bg-red-500 hover:text-white transition ease-in duration-300 text-red-400">
                   <span
-                    className="w-20 sm:w-28 text-sm font-medium"
+                    className="w-20 sm:w-28 ml-2 sm:ml-10 lg:ml-12 text-sm font-medium"
                     onClick={() => contentClickHandler("todo")}
                   >
                     Todo List
                   </span>
-                </a>
+                </div>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="flex flex-row items-center h-12 transform hover:translate-x-3 transition-transform ease-in duration-200 text-red-400 hover:text-red-400"
-                >
-                  <span className="inline-flex items-center justify-center h-12 w-4 sm:w-6 md:w-12 text-lg text-red-400">
-                    <i className="bx bx-drink"></i>
-                  </span>
+                <div className="cursor-pointer flex flex-row items-center h-12 hover:bg-red-500 hover:text-white transition ease-in duration-300 text-red-400">
                   <span
-                    className="w-20 sm:w-28 text-sm font-medium"
+                    className="w-20 sm:w-28 ml-2 sm:ml-10 lg:ml-12 text-sm font-medium"
                     onClick={() => contentClickHandler("notes")}
                   >
                     Notes
                   </span>
-                </a>
+                </div>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="flex flex-row items-center h-12 transform hover:translate-x-3 transition-transform ease-in duration-200 text-red-400 hover:text-red-400"
-                >
-                  <span className="inline-flex items-center justify-center h-12 w-4 sm:w-6 md:w-12 text-lg text-red-400">
-                    <i className="bx bx-shopping-bag"></i>
-                  </span>
+                <div className="cursor-pointer flex flex-row items-center h-12 hover:bg-red-500 hover:text-white transition ease-in duration-300 text-red-400">
                   <span
-                    className="w-20 sm:w-28 text-sm font-medium"
+                    className="w-20 sm:w-28 ml-2 sm:ml-10 lg:ml-12 text-sm font-medium"
                     onClick={() => contentClickHandler("password")}
                   >
                     Password Manager
                   </span>
-                </a>
+                </div>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="flex flex-row items-center h-12 transform hover:translate-x-3 transition-transform ease-in duration-200 text-red-400 hover:text-red-400"
-                >
-                  <span className="inline-flex items-center justify-center h-12 w-4 sm:w-6 md:w-12 text-lg text-red-400">
-                    <i className="bx bx-user"></i>
-                  </span>
+                <div className="cursor-pointer flex flex-row items-center h-12 hover:bg-red-500 hover:text-white transition ease-in duration-300 text-red-400">
                   <span
-                    className="w-20 sm:w-28 text-sm font-medium"
+                    className="w-20 sm:w-28 ml-2 sm:ml-10 lg:ml-12 text-sm font-medium"
                     onClick={() => contentClickHandler("profile")}
                   >
                     Profile
                   </span>
-                </a>
+                </div>
               </li>
             </ul>
           </div>
